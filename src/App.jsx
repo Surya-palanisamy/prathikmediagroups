@@ -2,11 +2,12 @@
 import React from "react";
 import Header from "./components/Header";
 import AboutUs from "./components/AboutUs";
-import RegisterEvents from "./components/RegisterEvents";
+import Register from "./components/Register";
 import Footer from "./components/Footer";
 import ParticlesBackground from "./components/ParticlesBackground";
+import Hero from "./components/Hero";
 import "./App.css";
-import Hero from "./components/hero";
+
 function App() {
   return (
     <>
@@ -14,8 +15,9 @@ function App() {
       <Header />
       <main>
         <Hero />
+
         <AboutUs />
-        <RegisterEvents />
+        <Register />
       </main>
       <Footer />
     </>

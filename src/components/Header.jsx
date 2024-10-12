@@ -1,4 +1,3 @@
-// src/components/Header.jsx
 import React, { useState, useEffect } from "react";
 
 const Header = () => {
@@ -7,11 +6,13 @@ const Header = () => {
   const toggleNav = () => {
     setIsNavOpen(!isNavOpen);
     toggleHamburgerIcon();
+    toggleContentBlur();
   };
 
   const closeNav = () => {
     setIsNavOpen(false);
     resetHamburgerIcon();
+    removeContentBlur();
   };
 
   useEffect(() => {
@@ -43,6 +44,14 @@ const Header = () => {
     spans.forEach((span, index) => {
       span.classList.remove(`close-${index + 1}`);
     });
+  };
+
+  const toggleContentBlur = () => {
+    document.body.classList.toggle("content-blur");
+  };
+
+  const removeContentBlur = () => {
+    document.body.classList.remove("content-blur");
   };
 
   return (
