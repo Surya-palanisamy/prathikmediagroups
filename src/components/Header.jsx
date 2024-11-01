@@ -56,40 +56,40 @@ const Header = () => {
 
   return (
     <>
-      <nav className="header-nav">
-        <div className="nav-buttons">
-          <a href="#hero" className="nav-btn">
+      <nav className='header-nav'>
+        <div className='nav-buttons'>
+          <a href='#hero' className='nav-btn'>
             Home
           </a>
-          <a href="#about-us" className="nav-btn">
+          <a href='#about-us' className='nav-btn'>
             About
           </a>
-          <a href="#register-events" className="nav-btn">
+          <a href='#register-events' className='nav-btn'>
             Events
           </a>
-          <a href="#footer" className="nav-btn">
+          <a href='#footer' className='nav-btn'>
             Contact Us
           </a>
         </div>
       </nav>
       <div className={`nav-buttons-mobile ${isNavOpen ? "" : "hidden-nav"}`}>
-        <a href="#hero" className="nav-btn" onClick={closeNav}>
+        <a href='#hero' className='nav-btn' onClick={closeNav}>
           Home
         </a>
-        <a href="#about-us" className="nav-btn" onClick={closeNav}>
+        <a href='#about-us' className='nav-btn' onClick={closeNav}>
           About
         </a>
-        <a href="#register-events" className="nav-btn" onClick={closeNav}>
+        <a href='#register-events' className='nav-btn' onClick={closeNav}>
           Events
         </a>
-        <a href="#footer" className="nav-btn" onClick={closeNav}>
+        <a href='#footer' className='nav-btn' onClick={closeNav}>
           Contact Us
         </a>
       </div>
-      <div className="hamburger" onClick={toggleNav}>
-        <span className="line"></span>
-        <span className="line"></span>
-        <span className="line"></span>
+      <div className='hamburger' onClick={toggleNav}>
+        <span className='line'></span>
+        <span className='line'></span>
+        <span className='line'></span>
       </div>
     </>
   );

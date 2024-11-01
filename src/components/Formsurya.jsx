@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import {
   Button,
   Cascader,
@@ -10,7 +10,7 @@ import {
   Select,
   TreeSelect,
   Segmented,
-} from 'antd';
+} from "antd";
 const { RangePicker } = DatePicker;
 const formItemLayout = {
   labelCol: {
@@ -31,7 +31,7 @@ const formItemLayout = {
   },
 };
 const Formsurya = () => {
-  const [componentVariant, setComponentVariant] = useState('filled');
+  const [componentVariant, setComponentVariant] = useState("filled");
   const onFormVariantChange = ({ variant }) => {
     setComponentVariant(variant);
   };
@@ -47,17 +47,17 @@ const Formsurya = () => {
         variant: componentVariant,
       }}
     >
-      <Form.Item label="Form variant" name="variant">
-        <Segmented options={['outlined', 'filled', 'borderless']} />
+      <Form.Item label='Form variant' name='variant'>
+        <Segmented options={["outlined", "filled", "borderless"]} />
       </Form.Item>
 
       <Form.Item
-        label="Input"
-        name="Input"
+        label='Input'
+        name='Input'
         rules={[
           {
             required: true,
-            message: 'Please input!',
+            message: "Please input!",
           },
         ]}
       >
@@ -65,29 +65,29 @@ const Formsurya = () => {
       </Form.Item>
 
       <Form.Item
-        label="InputNumber"
-        name="InputNumber"
+        label='InputNumber'
+        name='InputNumber'
         rules={[
           {
             required: true,
-            message: 'Please input!',
+            message: "Please input!",
           },
         ]}
       >
         <InputNumber
           style={{
-            width: '100%',
+            width: "100%",
           }}
         />
       </Form.Item>
 
       <Form.Item
-        label="TextArea"
-        name="TextArea"
+        label='TextArea'
+        name='TextArea'
         rules={[
           {
             required: true,
-            message: 'Please input!',
+            message: "Please input!",
           },
         ]}
       >
@@ -95,12 +95,12 @@ const Formsurya = () => {
       </Form.Item>
 
       <Form.Item
-        label="Mentions"
-        name="Mentions"
+        label='Mentions'
+        name='Mentions'
         rules={[
           {
             required: true,
-            message: 'Please input!',
+            message: "Please input!",
           },
         ]}
       >
@@ -108,12 +108,12 @@ const Formsurya = () => {
       </Form.Item>
 
       <Form.Item
-        label="Select"
-        name="Select"
+        label='Select'
+        name='Select'
         rules={[
           {
             required: true,
-            message: 'Please input!',
+            message: "Please input!",
           },
         ]}
       >
@@ -121,12 +121,12 @@ const Formsurya = () => {
       </Form.Item>
 
       <Form.Item
-        label="Cascader"
-        name="Cascader"
+        label='Cascader'
+        name='Cascader'
         rules={[
           {
             required: true,
-            message: 'Please input!',
+            message: "Please input!",
           },
         ]}
       >
@@ -134,12 +134,12 @@ const Formsurya = () => {
       </Form.Item>
 
       <Form.Item
-        label="TreeSelect"
-        name="TreeSelect"
+        label='TreeSelect'
+        name='TreeSelect'
         rules={[
           {
             required: true,
-            message: 'Please input!',
+            message: "Please input!",
           },
         ]}
       >
@@ -147,12 +147,12 @@ const Formsurya = () => {
       </Form.Item>
 
       <Form.Item
-        label="DatePicker"
-        name="DatePicker"
+        label='DatePicker'
+        name='DatePicker'
         rules={[
           {
             required: true,
-            message: 'Please input!',
+            message: "Please input!",
           },
         ]}
       >
@@ -160,12 +160,12 @@ const Formsurya = () => {
       </Form.Item>
 
       <Form.Item
-        label="RangePicker"
-        name="RangePicker"
+        label='RangePicker'
+        name='RangePicker'
         rules={[
           {
             required: true,
-            message: 'Please input!',
+            message: "Please input!",
           },
         ]}
       >
@@ -178,7 +178,7 @@ const Formsurya = () => {
           span: 16,
         }}
       >
-        <Button type="primary" htmlType="submit">
+        <Button type='primary' htmlType='submit'>
           Submit
         </Button>
       </Form.Item>
