@@ -14,9 +14,7 @@ const RegisterEvents = () => {
         </div>
       </section>
       <section className='register-events' id='register-events'>
-        <h1 style={{ textAlign: "center" }} className='neon'>
-          Works
-        </h1>
+        
         <div className='glows'>
           <a target='_blank' href='#' className='glow'>
             <img src={logo} alt='logo' />
@@ -24,9 +22,7 @@ const RegisterEvents = () => {
         </div>
       </section>
       <section className='register-events' id='register-events'>
-        <h1 style={{ textAlign: "center" }} className='neon'>
-          Works
-        </h1>
+        
         <div className='glows'>
           <a target='_blank' href='#' className='glow'>
             <img src={logo} alt='logo' />
@@ -34,9 +30,6 @@ const RegisterEvents = () => {
         </div>
       </section>
       <section className='register-events' id='register-events'>
-        <h1 style={{ textAlign: "center" }} className='neon'>
-          Works
-        </h1>
         <div className='glows'>
           <a target='_blank' href='#' className='glow'>
             <img src={logo} alt='logo' />
