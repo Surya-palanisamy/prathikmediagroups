@@ -34,6 +34,7 @@ const Works = () => {
             <img src={poster} alt='logo' />
           </a>
         </div>
+        <p>Poster making</p>
       </section>
       <section className='register-events' id='register-events'>
         <div className='glows'>
@@ -41,12 +42,14 @@ const Works = () => {
             <img src={content} alt='logo' />
           </a>
         </div>
+        <p>content writing</p>
       </section>
       <section className='register-events' id='register-events'>
         <div className='glows'>
           <a target='_blank' href='#' className='glow'>
             <img src={ecom} alt='logo' />
           </a>
+          <p>E com</p>
         </div>
       </section>
       <section className='register-events' id='register-events'>
@@ -54,6 +57,7 @@ const Works = () => {
           <a target='_blank' href='#' className='glow'>
             <img src={music} alt='logo' />
           </a>
+          <p>music and instrmentel studio</p>
         </div>
       </section>
     </div>
