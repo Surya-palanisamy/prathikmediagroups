@@ -8,13 +8,12 @@ const AboutUs = () => {
         About Us
       </h2>
       <p>
-        digital media is a cutting-edge tech conference bringing together
+        Digital media is a cutting-edge tech conference bringing together
         innovators, developers, and industry leaders.
       </p>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus
-        veniam inventore officia explicabo labore ipsam sed ducimus et
-      </p>
+      <div>
+        
+      </div>
     </section>
   );
 };

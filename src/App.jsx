@@ -2,11 +2,11 @@
 import React from "react";
 import Header from "./components/Header";
 import AboutUs from "./components/AboutUs";
-import Register from "./components/Register";
 import Footer from "./components/Footer";
 import ParticlesBackground from "./components/ParticlesBackground";
 import Hero from "./components/Hero";
 import "./App.css";
+import Works from "./components/work";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <main>
         <Hero />
         <AboutUs />
-        <Register />
+        <Works />
       </main>
       <Footer />
     </>

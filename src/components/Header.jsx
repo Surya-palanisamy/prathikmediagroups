@@ -65,7 +65,7 @@ const Header = () => {
             About
           </a>
           <a href='#register-events' className='nav-btn'>
-            Events
+            Works
           </a>
           <a href='#footer' className='nav-btn'>
             Contact Us
