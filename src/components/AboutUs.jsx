@@ -7,10 +7,11 @@ const AboutUs = () => {
       <h2 style={{ textAlign: "center" }} className='neon'>
         About Us
       </h2>
-      <p>
+      <h4 style={{color:"pink"}}
+      >
         Digital media is a cutting-edge tech conference bringing together
         innovators, developers, and industry leaders.
-      </p>
+      </h4>
       <div>
         
       </div>

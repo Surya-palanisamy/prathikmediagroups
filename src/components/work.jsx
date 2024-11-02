@@ -5,11 +5,13 @@ import poster from "../assets/poster.png";
 import content from "../assets/content.jpeg";
 import ecom from "../assets/e-commerce.png";
 import music from "../assets/music.png";
+import flim from "../assets/flim.jpg";
+
 
 const Works = () => {
   return (
     <div className='flex'>
-      <section className='register-events' id='register-events'>
+      <section className='register' id='register'>
         <h1 style={{ textAlign: "center" }} className='neon'>
           Works
         </h1>
@@ -20,7 +22,7 @@ const Works = () => {
         </div>
         <p>video editing</p>
       </section>
-      <section className='register-events' id='register-events'>
+      <section className='register' id='register'>
         <div className='glows'>
           <a target='_blank' href='#' className='glow'>
             <img src={web} alt='logo' />
@@ -28,7 +30,7 @@ const Works = () => {
         </div>
         <p>web development</p>
       </section>
-      <section className='register-events' id='register-events'>
+      <section className='register' id='register'>
         <div className='glows'>
           <a target='_blank' href='#' className='glow'>
             <img src={poster} alt='logo' />
@@ -36,7 +38,7 @@ const Works = () => {
         </div>
         <p>Poster making</p>
       </section>
-      <section className='register-events' id='register-events'>
+      <section className='register' id='register'>
         <div className='glows'>
           <a target='_blank' href='#' className='glow'>
             <img src={content} alt='logo' />
@@ -44,21 +46,29 @@ const Works = () => {
         </div>
         <p>content writing</p>
       </section>
-      <section className='register-events' id='register-events'>
+      <section className='register' id='register'>
         <div className='glows'>
           <a target='_blank' href='#' className='glow'>
             <img src={ecom} alt='logo' />
           </a>
-          <p>E com</p>
         </div>
+        <p>E com</p>
       </section>
-      <section className='register-events' id='register-events'>
+      <section className='register' id='register'>
         <div className='glows'>
           <a target='_blank' href='#' className='glow'>
             <img src={music} alt='logo' />
           </a>
-          <p>music and instrmentel studio</p>
         </div>
+        <p>music and instrmentel studio</p>
+      </section>
+      <section className='register' id='register'>
+        <div className='glows'>
+          <a target='_blank' href='#' className='glow'>
+            <img src={flim} alt='logo' />
+          </a>
+        </div>
+        <p>flim and short flim making 🎬✨ </p>
       </section>
     </div>
   );

@@ -203,7 +203,7 @@ footer a:hover {
   width: 38px;
   max-width: 100%;
 }
-#register-events {
+#register {
   display: flex;
   justify-content: space-between;
   align-items: center;

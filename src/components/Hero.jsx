@@ -19,9 +19,10 @@ const Hero = () => {
         />
       </div>
       <h1 className='neon'>Welcome to Prathik Uttters Media Groups</h1>
-      <p className='content'>
+      <h4 style={{color:"red"}}>A PLATFORM WHERE WHOLESOME PACKAGES OF DIGITAL SERVICES IS PROVIDED AT A FRIENDLY COST </h4>
+      <h5 className='content'>
         Experience the future of technology and innovation
-      </p>
+      </h5>
     </section>
   );
 };
