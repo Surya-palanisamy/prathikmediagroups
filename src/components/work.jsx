@@ -6,6 +6,7 @@ import content from "../assets/content.jpeg";
 import ecom from "../assets/e-commerce.png";
 import music from "../assets/music.png";
 import flim from "../assets/flim.jpg";
+import book from "../assets/book publish.png";
 
 
 const Works = () => {
@@ -69,6 +70,14 @@ const Works = () => {
           </a>
         </div>
         <p>flim and short flim making 🎬✨ </p>
+      </section>
+      <section className='register' id='register'>
+        <div className='glows'>
+          <a target='_blank' href='#' className='glow'>
+            <img src={book} alt='logo' />
+          </a>
+        </div>
+        <p>book and artcles publishing ✨ </p>
       </section>
     </div>
   );
